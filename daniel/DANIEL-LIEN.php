@@ -1,0 +1,83 @@
+<!--
+                        .
+                       / V\
+                     / `  /
+                    <<   |
+                    /    |
+                  /      |
+                /        |
+              /    \  \ /
+             (      ) | |
+     ________|   _/_  | |
+   <__________\______)\__)
+
+
+    Created on : 9 août 2021, 21:26:13
+    Author     : AS2KXR
+-->
+<?php
+session_start();
+error_reporting(E_ALL);
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DANIEL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="DANIEL-LIENCSS.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/dragon.png" />
+    </head>
+    
+    <body>
+        <header>
+            <div class="DivCoté" id="DivCotéGauche"><a style="list-style: none; text-decoration: none;" href="DANIEL-LIEN.php"><h1 id="titredaniel">DANIEL</h1></a></div>
+            <div class="DivMiddle"></div>
+            <div class="DivCoté" id="DivCotéDroit">
+                <a id="AdeImg" href="DANIELLOGIN.php"><img id="image" src="images/loginpref.png" alt=""/></a>
+            </div>
+        </header>
+        
+        <section>
+            <!--
+            <a target="_blank" href="https://twitter.com/as2kxr"><button>TWITTER</button></a>
+            <a target="_blank" href="https://www.instagram.com/dvniel5/"><button>INSTAGRAM</button></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCF8ewOwt7UgG7iCTK7jiDtA"><button>YOUTUBE</button></a>
+            <a target="_blank" href="https://www.facebook.com/franciscodaniel.portugalfardilha.9/"><button>FACEBOOK</button></a>
+            <a target="_blank" href="https://www.snapchat.com/add/d.niel5"><button>SNAPCHAT</button></a>
+            -->
+            <!--
+            <div class="backgroundBTNLien"><a target="_blank" href="https://twitter.com/as2kxr" class="btnlien">TWITTER</a></div>
+            <div class="backgroundBTNLien"><a target="_blank" href="https://www.instagram.com/dvniel5/" class="btnlien">INSTAGRAM</a></div>
+            <div class="backgroundBTNLien"><a target="_blank" href="https://www.youtube.com/channel/UCF8ewOwt7UgG7iCTK7jiDtA" class="btnlien">YOUTUBE</a></div>
+            <div class="backgroundBTNLien"><a target="_blank" href="https://www.facebook.com/franciscodaniel.portugalfardilha.9/" class="btnlien">FACEBOOK</a></div>
+            <div class="backgroundBTNLien"><a target="_blank" href="https://www.snapchat.com/add/d.niel5" class="btnlien">SNAPCHAT</a></div>
+            -->
+            <div class="espaceLienMid"></div>
+            <div id="DivLien">
+                <br>
+                <center class="backgroundBTNLien"><a target="_blank" href="https://twitter.com/as2kxr" class="btnlien">TWITTER</a></center><br>
+                <center class="backgroundBTNLien"><a target="_blank" href="https://www.instagram.com/dvniel5/" class="btnlien">INSTAGRAM</a></center><br>
+                <center class="backgroundBTNLien"><a target="_blank" href="https://www.youtube.com/channel/UCF8ewOwt7UgG7iCTK7jiDtA" class="btnlien">YOUTUBE</a></center><br>
+                <center class="backgroundBTNLien"><a target="_blank" href="https://www.facebook.com/franciscodaniel.portugalfardilha.9/" class="btnlien">FACEBOOK</a></center><br>
+                <center class="backgroundBTNLien"><a target="_blank" href="https://www.snapchat.com/add/d.niel5" class="btnlien">SNAPCHAT</a></center>
+            </div>
+            <div class="espaceLienMid"></div>
+        </section>            
+        
+        <footer style="display: flex; text-align: center;">
+            <div style="width: 25%;"><p>Copyright2021@DVNIEL5</p></div>
+            <div style="width: 50%;"><p>For any question please contact me at : <a>mail@deleted.co</a></p></div>
+            <div style="width: 25%;"><p>Proudly created by DVNIEL5</p></div>
+        </footer>
+        
+    </body>  
+        <?php
+        // put your code here
+        ?>
+    
+</html>
